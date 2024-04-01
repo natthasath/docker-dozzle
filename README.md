@@ -1,6 +1,12 @@
-# 🎉 Docker Dockge
+---
+runme:
+  id: 01HTCDB149GYCZ52SQBGV6DXMA
+  version: v3
+---
 
-Dockge is a self-coined term inspired by Twitch emotes like sadge, bedge, or wokege, ending in -ge. Created for Docker, it aims to simplify container management using docker-compose.yaml. For individual containers, tools like Portainer or Docker CLI are recommended.
+# 🎉 Docker Dozzle
+
+Dozzle: A lightweight Docker container log viewer with a web-based interface. Easily monitor logs in real-time, filter, and search for specific content. Perfect for debugging and troubleshooting.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
@@ -8,8 +14,9 @@ Dockge is a self-coined term inspired by Twitch emotes like sadge, bedge, or wok
 
 ### 🏆 Run
 
-- [http://localhost:5001/](http://localhost:5001/) username : `admin` password : `admin`
+- [http://localhost:9999/](http://localhost:9999/) username : `admin` password : `admin`
 
-```shell
+```shell {"id":"01HTCDB149GYCZ52SQBG04Y972"}
 docker-compose up -d
+
 ```
