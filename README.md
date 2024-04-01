@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HTCDB149GYCZ52SQBGV6DXMA
-  version: v3
----
-
 # 🎉 Docker Dozzle
 
 Dozzle: A lightweight Docker container log viewer with a web-based interface. Easily monitor logs in real-time, filter, and search for specific content. Perfect for debugging and troubleshooting.
@@ -18,5 +12,4 @@ Dozzle: A lightweight Docker container log viewer with a web-based interface. Ea
 
 ```shell {"id":"01HTCDB149GYCZ52SQBG04Y972"}
 docker-compose up -d
-
 ```
