@@ -9,11 +9,18 @@ services:
     networks:
       - default
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - docker_dozzle_data:/app/data
       - ./data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - DOCKGE_STACKS_DIR=/opt/stacks
 
 networks:
   default:
+    name: docker_dozzle_network
     driver: bridge
+
+volumes:
+  data:
+    name: docker_dozzle_data
+    driver: local
